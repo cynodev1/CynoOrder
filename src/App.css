@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -36,3 +37,203 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+/* app.css */
+
+.login-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-container button {
+  padding: 10px 20px;
+  background-color: #ffb300;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Styles for the Signup component */
+.signup-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.signup-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  
+}
+
+.signup-container input[type="text"],
+.signup-container input[type="email"],
+.signup-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+.signup-container button {
+  padding: 10px 20px;
+  background-color: #eeff00;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* Styles for the App component */
+.app-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.app-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.app-container input[type="file"] {
+  margin-bottom: 10px;
+}
+
+.app-container .excel-component {
+  margin-top: 20px;
+}
+
+.app-container .excel-component button {
+  padding: 10px 20px;
+  background-color: #ffd500;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.app-container .excel-component table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.app-container .excel-component th,
+.app-container .excel-component td {
+  padding: 8px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.app-container .excel-component th {
+  background-color: #f2f2f2;
+}
+
+.app-container .excel-component button.active {
+  background-color: #ff0000;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .login-container,
+  .signup-container,
+  .app-container {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .login-container h2,
+  .signup-container h2,
+  .app-container h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+
+  .login-container input[type="text"],
+  .login-container input[type="password"],
+  .signup-container input[type="text"],
+  .signup-container input[type="email"],
+  .signup-container input[type="password"],
+  .app-container input[type="file"] {
+    padding: 8px;
+    margin-bottom: 8px;
+  }
+
+  .login-container button,
+  .signup-container button,
+  .app-container .excel-component button {
+    padding: 8px 16px;
+  }
+}
+
+/* Color and Background Color Modifications */
+.login-container {
+  background-color: #f2f2f2;
+}
+
+.login-container h2 {
+  color: #333;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"],
+.signup-container input[type="text"],
+.signup-container input[type="email"],
+.signup-container input[type="password"],
+.app-container input[type="file"] {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #999;
+}
+
+.login-container button,
+.signup-container button,
+.app-container .excel-component button {
+  background-color: #ff0015;
+  color: #fff;
+}
+
+.app-container .excel-component th {
+  background-color: #ddd;
+}
+
+.app-container .excel-component button.active {
+  background-color: #ff0000;
+}
+/* .myComponent {
+  width: 700px;
+  height: 300px;
+  border: 2px solid #c3c3c3;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+} */
+
+/* Test.css */
+
+/* Header styles */
